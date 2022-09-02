@@ -1,29 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Mi CV</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="imagen2.png">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
-	<title></title>
+    <meta charset="UTF-8">
+    <title>Portafolio Personal</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo y icon-->
+    <link rel="shortcut icon" href="/imagen/portafolioIcon.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/df8c9f744e.js" crossorigin="anonymous"></script>
+
+    
 </head>
 <body>
-<header>
-	<div>
-		<h1>MI CV</h1>
-	</div>
-</header>
-	
-	<div class="flex-container">
-		<div class="flex-item">Cajas Flexibles</div>
-		<div class="flex-item">Cajas Flexibles</div>
-		<div class="flex-item">Cajas Flexibles</div>
-		<div class="flex-item">Cajas Flexibles</div>
-	</div>
-	
-	<div> </div>
-	
+    <!--Principal-->
+    <section id="main">
+    <!--navegacion-->
+    <nav>
+    <!--Logo-->
+    <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/imagen/descarga.png" alt="" width="30" height="24">
+          </a>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Yo-Programo</a>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portafolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactame</a>
+                  </li>
+                </ul>
+                <div class="redes">
+                    <a href="https://www.instagram.com/diazalejo__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ElMerk01"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+      </nav>
+    <!--Menu-->
+<!--Redes-->
+   
+    <div class="nombre">
+        <!--Bienvenido-->
+        <h1>Bienvenido</h1>
+        <!--Nombre-->
+        <p>Soy <font color="#42E3FC">Alejo</font> Diaz Allendez</p>
+    </div>
+    <!--Acerca de-img-->
+    
+    <!--Acerca de-text-->
+    <p>Soy programador full stack Jr., tengo 23 anios de edad Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure adipisci tempore perspiciatis, doloremque voluptatum ullam recusandae quod, praesentium provident neque corporis 
+     quisquam corrupti quidem odio, enim facere veritatis cupiditate? Tempore?
+    </p>
+    </section>
+    
+    <!--Sobre Mi-->
+    <section id="about">
+     <!--text-->
+        <div class="about text">
+            <h1>Sobre mi</h1>
+            <h2>Freelancing Full Stack Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque repudiandae quisquam consequunt
+                ur magnam eos unde rem facere adipisci eligendi! Assumenda aliquam ab non quod ut sit ea delectus accusamus sunt.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus odio perspiciatis saepe incidunt dolorem enim vero aspernatur eveniet.
+                Esse quis blanditiis hic praesentium commodi quos accusamus quo saepe! Eligendi, exercitationem!
+            </p>
+            <button>Ver mas detalles</button>
+        </div>
+    </section>
+    <!--Habilidades-->
+    <section id="habilidades">
+    <!--Heading-->
+    <div class="s-heading">
+        <h1>Habilidades</h1>
+        <p>Estas son algunas de mis habilidades con ciertos lenguajes</p>
+    </div>
+    <!--servicion-box-container-->
+    <div class="b-container">
+    <!--box-habilidad-1-->
+    <div class="s-box">
+    <!--img-->
+    <img src="/imagen/estrella.png" alt="estrella">
+    <h1>HTML</h1>
+    <img src="/imagen/estrella.png" alt="estrella">
+    <h1>CSS</h1>
+    <img src="/imagen/estrella.png" alt="estrella">
+    <h1>JavaScript</h1>
+    <img src="/imagen/estrella.png" alt="estrella">
+    <h1>Angular js</h1>
+    </div>
+    </div>
+
+    </section>
+    <!--Contactame-->
+    <section id="contact-btn">
+    <!--heading-->
+    <h1>Si necesitas contactarte conmigo...</h1>
+    <!--btn-->
+    <button>Contactame</button>
+   
+    </section>
+    <section id="contac-form">
+    <form>
+    <!--left-->
+    <div class="contact-left">
+    <h1 class="c-l-heading"><font style="border-bottom: 3px solid #42E3FC;">Escribime</font></h1>
+    <!--Name-->
+    <div class="f-name">
+    <font>Nombre</font>
+    <input type="text" placeholder="Nombre completo">
+    </div>
+    <!--Email-->
+    <div class="f-email">
+    <font>Email</font>
+    <input type="email" placeholder="ejample@gmail.com">
+    </div>
+    </div>
+    <!--Right-->
+    <div class="contact-right">
+    <!--Messege-->
+    <div class="messege">
+    <font>Mensaje</font>
+    <textarea name="messege" cols="20" rows="5">Escribir mensaje...</textarea>
+    </div>
+    <!--submit-btn-->
+    <button>Enviar</button>
+    </div>
+    </form>
+    </section>
+    <script type="text/javascript" src="/js/java.js"></script>
+  
 </body>
 </html>
